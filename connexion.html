@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mon site perso</title>
+  </head>
+
+  <script src="js/app.js"></script>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="connexion.html">Connexion</a>
+      <a href="inscription.html">Inscription</a>
+    </nav>
+
+    <div>Connexion</div>
+		<form method="post">
+		
+		<!-- Champ identifiant par email -->
+		<div class="form-group">
+			<label class="control-label">Adresse mail :</label>
+			<input type="email" name="identifiant" required>
+			
+		</div>
+		
+		<!-- Champ Mot De Passe -->
+		<div class="form-group">
+			<label class="control-label">Mot de passe :</label>
+			<input type="password" name="mdp" required>
+		</div>
+		
+		<!-- Bouton S'inscrire -->
+		<button type="submit" name="connexion">Se connecter</button>
+		
+  </body>
+</html>
