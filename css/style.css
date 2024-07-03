@@ -1,11 +1,16 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 20px;
 }
 
 .navbar {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -29,4 +34,24 @@ body {
 
 h1 {
   color: violet;
+}
+
+/*.playlist button {
+  background-color: orange;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  width: 50px;
+}
+*/
+
+.playlist button {
+  background-color: orange;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
 }
